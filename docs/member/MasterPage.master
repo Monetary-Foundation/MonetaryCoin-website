@@ -1,0 +1,594 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="UserPanel_Member_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Fabis</title>
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <link rel="shortcut icon" href="assets/images/image.png" type="image/x-icon" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="assets/fonts/webfont/cryptocoins.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/jvectormap/jquery-jvectormap-2.0.1.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="assets/plugins/morris-chart/css/morris.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<style>
+	.sidebar-brand {
+		position: relative;
+		padding: 24px 0;
+		text-align: center;
+		display: block;
+	}
+	.sidebar-brand .brand-name {
+		text-transform: uppercase;
+		font-size: 30px;
+		font-family: 'SVN-Nexa Heavy';
+		line-height: 12px;
+		color:#fff;
+		display:none;
+	}
+	.sidebar-user {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.sidebar-user .user-content {
+		padding: 20px 0;
+	}
+	.sidebar-user .user-info {
+		margin-top: 20px;
+	}
+	.profilePic{
+		width: 109px;
+	}
+	body {
+	background:#f7f7f7;
+   <!-- background: #000 url(../Member/assets/images/back.png) no-repeat right top;-->
+}
+	
+	.page-sidebar {
+		z-index: 99;
+		/*background: #e8962e url(../Member/assets/images/section.png) repeat-y left top;*/
+		background-color:#fff;
+		
+	}
+	.user-heading a, .text-white a {
+		color: #2a2a2a;
+		font-weight: 900;
+		font-size: 16px;
+	}
+	.page-sidebar.collapseit {
+		width: 0px;
+		margin-left: 0px !important;
+		z-index: 99;
+		display: none;
+	}
+	#main-content.sidebar_shift {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	@media (max-width: 767px) {	
+		#main-content {
+			margin-left: 0px;
+			z-index: 2;
+		}
+	}
+	.x-line {
+		border-bottom: solid 1px #e45131;
+	}
+	
+	.r4_counter.has-gradient-to-right-bottom, .r4_counter:hover {
+    background-image: linear-gradient(to right,#6e7ff3, #6e7ff3);
+  
+    cursor: pointer;
+    background-image: linear-gradient(to right, #6e7ff3, #6e7ff3);
+}
+
+.has-gradient-to-right-bottom {
+  
+    background-image: -webkit-gradient(linear, left top, left bottom, from(to right), color-stop(#e8962e), to(#e45131)) !important;
+       background-image: linear-gradient(to right, #6e7ff3, #6e7ff3) !important;
+}
+#main-menu-wrapper li a
+{
+	color:#2a2a2a;
+}
+
+.r4_counter:hover {
+    background-image: linear-gradient(to right bottom, #6e7ff3, #6e7ff3) !important;
+}
+
+.r4_counter.has-gradient-to-right-bottom, .r4_counter:hover {
+    -webkit-box-shadow: 0 1px 28px rgba(255,152,0,.66);
+    box-shadow: 0 1px 28px rgba(4, 0, 255, 0.21);
+    cursor: pointer;
+}
+	</style>
+	   
+	<script type="text/javascript">
+	    $(window).load(function () {
+
+	        $('.countdown-right').countdown('2018/5/7', function (event) {
+	            $(this).html(event.strftime('<div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-days">%D</h4></div><span>days</span></div><div class="countdown-sep">:</div><div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-hours">%H</h4></div><span>hours</span></div><div class="countdown-sep">:</div><div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-minutes">%M</h4></div><span>minutes</span></div><div class="countdown-sep">:</div><div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-seconds">%S</h4></div><span>seconds</span></div><div class="clear"></div>'));
+	        });
+	    });
+	</script>
+	<style>
+		.countdown-block {
+			
+			float: left;
+		}
+		.countdown-sep {
+			width: 20px;
+			float: left;
+			height: 60px;				
+			font-size: 30px;			
+			text-align: center;
+		}
+		.countdown-block-main{			
+			text-align: center;				
+			font-size: 30px;
+		}
+		.countdown-block span{
+			display: block;
+			text-align: center;
+			font-size: 14px;
+			margin-top: 0px;
+		}
+		.banner-countdown{
+			width: 580px;
+			margin: auto;
+			margin-top: 0;
+			margin-bottom: 21px;
+		}
+		.countdown-block-main h4 {
+			padding: 0;
+			margin-bottom: 0;
+			margin-top: 3px;
+		}
+		.r4_counter.db_box.timer:hover {
+			color: #fff;
+		}
+		
+		.r4_counter {
+    min-height: 150px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    background: #ffffff;
+    -webkit-box-shadow: 0 2px 28px rgba(0,0,0,.1);
+    box-shadow: 0 2px 28px rgba(0,0,0,.1);
+}
+
+.page-topbar {
+    min-height: 60px;
+    position: fixed;
+    width: 100%;
+   
+	 background-image: linear-gradient(to right bottom,#4B51A9, #4B51A9) !important;
+    
+    top: 0px;
+    left: 0px;
+    z-index: 1999;
+    box-shadow: 0 2px 4px rgba(33,33,33,.2);
+    -webkit-box-shadow: 0 2px 4px rgba(33,33,33,.2);
+    -moz-box-shadow: 0 2px 4px rgba(33,33,33,.2);
+    -o-box-shadow: 0 2px 4px rgba(33,33,33,.2);
+    -ms-box-shadow: 0 2px 4px rgba(33,33,33,.2);
+    max-height: 60px;
+}
+.page-topbar .logo-area
+{
+	background-image:none;
+}
+.page-topbar .logo-area
+{
+	font-size: 40px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+	color:#fff;
+}
+.page-topbar.sidebar_shift .logo-area
+{
+	background-color: #4B51A9;
+	background-image:none;
+}
+.page-title h1 {
+    font-size: 28px;
+    font-weight: 400;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: #2a2a2a;
+    margin-bottom: 15px;
+}
+		</style>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<!-- BEGIN BODY -->
+
+<body class=" ">
+    <!-- START CONTAINER -->
+    <div class="page-container row-fluid container-fluid">
+
+        <!-- SIDEBAR - START -->
+
+        <div class="page-sidebar fixedscroll" style="margin-top: unset;">
+
+            <!-- MAIN MENU - START -->
+            <div class="page-sidebar-wrapper" id="main-menu-wrapper" style="height:unset;">
+
+				<div class="sidebar-content">
+					<div class="sidebar-brand hidden-xs hidden-sm">
+						<h4 class="brand-name">
+						 Fabis
+						</h4>
+					</div>
+					<!-- User menu -->
+					<div class="sidebar-user">
+						<div class="user-content">
+							<a href="/account/profile" class="user-avatar">
+								<img src="../Member/assets/images/logo.png" alt="Fabis" class="img-circle profilePic">
+							<!-- <asp:Image runat="server" ID="Image1" alt="" cssclass="img-circle profilePic" />-->
+                            </a>
+							<div class="user-info">
+								<span class="user-heading">
+									<a href="#"><asp:Label ID="lblname" runat="server"></asp:Label></a>
+								</span>
+								<div class="text-size-mini text-white">
+									<a href="logout.aspx">Logout</a>
+								</div>
+							</div>
+						</div>
+					</div>                
+				</div>
+                <ul class='wraplist'>
+                    
+                    <li class="open">
+                        <a href="Default.aspx">
+                            <i class="fa fa-th-large"></i>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="wallets.aspx">
+                            <i class="fa fa-bullseye"></i>
+                            <span class="title">Wallet</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="AccCoinWallet.aspx">
+                            <i class="fa fa-flash"></i>
+                            <span class="title">Transaction</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="network.aspx">
+                            <i class="fa fa-sitemap"></i>
+                            <span class="title">Referral</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="Level_Counts.aspx">
+                            <i class="fa fa-user"></i>
+                            <span class="title">Team List</span>
+                        </a>
+                    </li>
+                    
+                    <li class="">
+                        <a href="security.aspx">
+                            <i class="fa fa-lock"></i>
+                            <span class="title">Security</span>
+                        </a>
+                    </li>
+					<li class="">
+                        <a href="Edit_Profile.aspx">
+                            <i class="fa fa-gear"></i>
+                            <span class="title">Settings</span>
+                            
+                        </a>
+                       
+                    </li>
+                </ul>
+
+            </div>
+            <!-- MAIN MENU - END -->
+
+        </div>
+        <!--  SIDEBAR - END -->
+
+        <!-- START CONTENT -->
+        <section id="main-content" class=" ">
+			<div class="page-topbar sidebar_shift">
+				 <div class="logo-area">
+					Fabis
+				</div> 
+				<div class="quick-area">
+					<div class="pull-left">
+						<ul class="info-menu left-links list-inline list-unstyled">
+							<li class="sidebar-toggle-wrap">
+								<a href="#" data-toggle="sidebar" class="sidebar_toggle">
+									<i class="fa fa-bars"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="pull-right">
+						<ul class="info-menu right-links list-inline list-unstyled">
+							<li class="profile showopacity">
+								<a href="#" data-toggle="dropdown" class="toggle">
+									<img src="data/profile/profile.jpg" alt="user-image" class="img-circle img-inline">
+									<span>Smith Wright <i class="fa fa-angle-down"></i></span>
+								</a>
+								<ul class="dropdown-menu profile animated fadeIn">
+									<li>
+										<a href="account-confirmation.html">
+											<i class="fa fa-wrench"></i> Settings
+										</a>
+									</li>
+									<li>
+										<a href="ui-profile.html">
+											<i class="fa fa-user"></i> Profile
+										</a>
+									</li>
+									<li>
+										<a href="ui-support.html">
+											<i class="fa fa-info"></i> Help
+										</a>
+									</li>
+									<li class="last">
+										<a href="ui-login.html">
+											<i class="fa fa-lock"></i> Logout
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="chat-toggle-wrapper hidden">
+								<a href="#" data-toggle="chatbar" class="toggle_chat">
+									<i class="fa fa-comments"></i>
+									<span class="badge badge-accent">9</span>
+									<i class="fa fa-times"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			<div></div></div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        
+
+        <!-- END CONTENT -->
+        <div class="page-chatapi hideit">
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search" class="form-control">
+            </div>
+
+            <div class="chat-wrapper">
+
+                <h4 class="group-head">Favourites</h4>
+                <ul class="contact-list">
+
+                    <li class="user-row " id='chat_user_1' data-user-id='1'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-1.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Joge Lucky</a></h4>
+                            <span class="status available" data-status="available"> Available</span>
+                        </div>
+                        <div class="user-status available">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_2' data-user-id='2'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Folisise Chosiel</a></h4>
+                            <span class="status away" data-status="away"> Away</span>
+                        </div>
+                        <div class="user-status away">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_3' data-user-id='3'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-3.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Aron Gonzalez</a></h4>
+                            <span class="status busy" data-status="busy"> Busy</span>
+                        </div>
+                        <div class="user-status busy">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <h4 class="group-head">More Contacts</h4>
+                <ul class="contact-list">
+
+                    <li class="user-row " id='chat_user_4' data-user-id='4'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-4.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Chris Fox</a></h4>
+                            <span class="status offline" data-status="offline"> Offline</span>
+                        </div>
+                        <div class="user-status offline">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_5' data-user-id='5'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-5.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Mogen Polish</a></h4>
+                            <span class="status offline" data-status="offline"> Offline</span>
+                        </div>
+                        <div class="user-status offline">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_6' data-user-id='6'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-1.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Smith Carter</a></h4>
+                            <span class="status available" data-status="available"> Available</span>
+                        </div>
+                        <div class="user-status available">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_7' data-user-id='7'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Amilia Gozenal</a></h4>
+                            <span class="status busy" data-status="busy"> Busy</span>
+                        </div>
+                        <div class="user-status busy">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_8' data-user-id='8'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-3.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Tahir Jemyship</a></h4>
+                            <span class="status away" data-status="away"> Away</span>
+                        </div>
+                        <div class="user-status away">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_9' data-user-id='9'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-4.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Johanson Wright</a></h4>
+                            <span class="status busy" data-status="busy"> Busy</span>
+                        </div>
+                        <div class="user-status busy">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_10' data-user-id='10'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-5.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Loni Tindall</a></h4>
+                            <span class="status away" data-status="away"> Away</span>
+                        </div>
+                        <div class="user-status away">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_11' data-user-id='11'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-1.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Natcho Herlaey</a></h4>
+                            <span class="status idle" data-status="idle"> Idle</span>
+                        </div>
+                        <div class="user-status idle">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_12' data-user-id='12'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Shakira Swedan</a></h4>
+                            <span class="status idle" data-status="idle"> Idle</span>
+                        </div>
+                        <div class="user-status idle">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="chatapi-windows ">
+
+        </div>
+    </div>
+    <!-- END CONTAINER -->
+    <!-- LOAD FILES AT PAGE END FOR FASTER LOADING -->
+
+    <!-- CORE JS FRAMEWORK - START -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/pace/pace.min.js"></script>
+    <script src="assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="assets/plugins/viewport/viewportchecker.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="assets/js/jquery-1.11.2.min.js"><\/script>');
+    </script>
+    <!-- CORE JS FRAMEWORK - END -->
+
+    <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
+
+    <script src="assets/plugins/echarts/echarts-custom-for-dashboard.js"></script>
+
+    <script src="assets/plugins/flot-chart/jquery.flot.js"></script>
+    <script src="assets/plugins/flot-chart/jquery.flot.time.js"></script>
+    <script src="assets/js/chart-flot.js"></script>
+
+    <script src="assets/plugins/morris-chart/js/raphael-min.js"></script>
+    <script src="assets/plugins/morris-chart/js/morris.min.js"></script>
+    <script src="assets/js/chart-morris.js"></script>
+    <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
+
+    <!-- CORE TEMPLATE JS - START -->
+    <script src="assets/js/scripts.js"></script>
+         <link href="../../International/AdminPanel/media/css/demo_table_jui.css" rel="stylesheet" type="text/css" />
+    <link href="../../International/AdminPanel/media/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script src="../../International/AdminPanel/media/js/jquery.dataTables.js" type="text/javascript"></script>
+
+    <!-- END CORE TEMPLATE JS - END -->
+ </form>
+</body>
+</html>
+
+   
+
+
+
