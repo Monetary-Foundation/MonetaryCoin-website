@@ -7,6 +7,7 @@ The MonetaryCoinUS Token distribution will take place in two stages, 90 days per
 days. The first stage of the distribution will start on March 1 st , 2018 at 00:00:01 UTC.
 69,219,000,000 (sixty nine billion) ERC-20 compatible MonetaryCoinUS Tokens will be distributed
 according to the schedule below:
+
 ## MonetaryCoinUS Tokens  Sale Schedule
 1. 34,609,219,500 (34.6 billion)  March 1 st , 2018 00:00:01 UTC–May 30 th , 2018 12:59:59
 UTC
