@@ -1,6 +1,6 @@
 # MONETARYCOIN DISTRIBUTION
-## MonetaryCoinERO and MonetaryCoinCHI
 ## MERO and MCHI
+## MonetaryCoinERO and MonetaryCoinCHI
 
 ## HOW MANY MERO TOKENS WILL BE AVAIALABLE?
 
