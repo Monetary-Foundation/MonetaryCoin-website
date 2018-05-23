@@ -1,7 +1,7 @@
 # MONETARYCOIN
-## MonetaryCoinERO (MERO) Distribution
+## MonetaryCoinERO (MERO) Distribution AND MonetaryCoinCHI (MCHI) Distribution
 
-## HOW MANY TOKENS WILL BE AVAIALABLE?
+## HOW MANY MERO TOKENS WILL BE AVAIALABLE?
 
 10% of MonetaryCoinERO Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 80% of MonetaryCoinERO Tokens will be available for Proof of Stake forging along with any unclaimed coins.
 
@@ -19,7 +19,25 @@ Split evenly into 7 consecutive 23 hour periods of 120,648,128 MonetaryCoinERO T
     
 Split evenly into 173 consecutive 23 hour periods of 60,324,064 MonetaryCoinERO Tokens each.
 
-## HOW DOES DISTRIBUTION WORK?
+## HOW MANY MCHI TOKENS WILL BE AVAIALABLE?
+
+10% of MonetaryCoinCHI Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 80% of MonetaryCoinCHI Tokens will be available for Proof of Stake forging along with any unclaimed coins.
+
+The MonetaryCoinCHI Token distribution will take place in two stages, a 7 day stage, and a 173 day stage over a total of 180 days. The first stage of the distribution will start on June 1st, 2018 at 00:00:01 UTC.
+
+173,985,950,000,000 (173,986 billion) ERC-20 compatible MonetaryCoinERO (MCHI) Tokens will be distributed according to the schedule below:
+
+    MonetaryCoinCHI Tokens                                  Sale Schedule
+
+    1. 13,025,686,096 (13.0 billion)               June 1st, 2018 00:00:01 UTC–June 7th, 2018 12:59:59 UTC
+    
+Split evenly into 7 consecutive 23 hour periods of 1,860,812,299 MonetaryCoinCHI (MCHI) Tokens each.
+
+    2. 160,960,263,904 (160.9 billion)             June 8th, 2018 00:00:01 UTC–November 28th, 2018 12:59:59 UTC
+    
+Split evenly into 173 consecutive 23 hour periods of 930,406,150 MonetaryCoinCHI (MCHI) Tokens each.
+
+## HOW DOES MERO DISTRIBUTION WORK?
 At the end of each 23 hour period referred to above, a set number of MonetaryCoinERO Tokens will be distributed pro-rata amongst all authorized purchasers, based on the total ETH contributed during those periods, respectively, as follows:
 
 MonetaryCoinERO Tokens distributed to the purchaser at the end of the period = a * (b/c)
@@ -33,6 +51,21 @@ To participate in the MonetaryCoinERO Token distribution, you will need to send 
 MonetaryCoinERO Token will automatically be transferred to the Ethereum address used to purchase MonetaryCoinERO Token. MonetaryCoinERO Token can only be claimed after the period pursuant to which you have purchased your MonetaryCoinERO Token has ended.
 
 #### The minimum participation amount is 0.01 ETH. If one sends anything other than ETH to the MonetaryCoinERO Token Distribution Contract, such transaction will be null and void.
+
+## HOW DOES MCHI DISTRIBUTION WORK?
+It is similar in most respects to the MERO distribution. At the end of each 23 hour period referred to above, a set number of MonetaryCoinCHI Tokens will be distributed pro-rata amongst all authorized purchasers, based on the total ETH contributed during those periods, respectively, as follows:
+
+MonetaryCoinCHI Tokens distributed to the purchaser at the end of the period = a * (b/c)
+
+* a = Total ETH contributed by an authorized purchaser during the period.
+* b = Total number of MonetaryCoinCHI Tokens available for distribution in the period.
+* c = Total ETH contributed by all authorized purchasers during the period.
+
+To participate in the MonetaryCoinCHI Token distribution, you will need to send ETH to the Ethereum MonetaryCoinCHI distribution smart contract (the “MonetaryCoinCHI Distribution Contract”) during a period of your choice. The MonetaryCoinCHI Token can only be claimed when such period is completed. The minimum contribution amount is 0.01 ETH.
+
+MonetaryCoinCHI Token will automatically be transferred to the Ethereum address used to purchase MonetaryCoinCHI Token. MonetaryCoinCHI Token can only be claimed after the period pursuant to which you have purchased your MonetaryCoinCHI Token has ended.
+
+#### The minimum participation amount is 0.01 ETH. If one sends anything other than ETH to the MonetaryCoinCHI Token Distribution Contract, such transaction will be null and void.
 
 ## CONFIGURATION
 In order to make sure ETH are sent and received correctly, the following configuration should be considered:
@@ -67,8 +100,8 @@ There are many incompatible wallets, please check to make sure that your wallet 
 * Kraken
 * Poloniex
 
-## WHERE DO I SEND MY ETHEREUM?
-The Ethereum address for the token distribution is:
+## WHERE DO I SEND MY ETHEREUM FOR MonetaryCoinERO (MERO)?
+The Ethereum address for the MonetaryCoinERO (MERO) token distribution is:
 
 **XXXXXXXXXXXXXXXXXXXXXXXXXXXXX**
 
@@ -109,27 +142,29 @@ Claiming Tokens:
 $ seth send -F <ETH_ADDRESS> -G 4600000 <CONTRACT_ADDRESS> "withdrawAll()" <ETH_ADDRESS>
 
 ## DISCLAIMER
-NO U.S. OR CHINESE PURCHASERS - MONETARYCOINERO TOKENS ARE NOT BEING OFFERED OR DISTRIBUTED TO U.S. PERSONS OR CHINESE PERSONS.
-THE FINANCIAL AND LEGAL RISKS RELATED TO ACQUISITION, POSSEESION AND DISPOSITION OF CRYPTOCURRENCY SUCH AS MONETARYCOINERO ARE LARGELY UNKNOWN TODAY.
+NO U.S. OR CHINESE PURCHASERS - MONETARYCOIN TOKENS ARE NOT BEING OFFERED OR DISTRIBUTED TO U.S. PERSONS OR CHINESE PERSONS.
+THE FINANCIAL AND LEGAL RISKS RELATED TO ACQUISITION, POSSEESION AND DISPOSITION OF CRYPTOCURRENCY SUCH AS MONETARYCOIN ARE LARGELY UNKNOWN TODAY.
 
-CRYPTOCURRENCIES SUCH AS MONETARYCOINERO MAY NOT BE SUITABLE FOR INDIVIDUALS NOT OTHERWISE ABLE TO WITHSTAND SIGNIFICANT VOLATILITY AND RISK OF TOTAL, IMMEDIATE AND UNRECOVERABLE LOSS.
+CRYPTOCURRENCIES SUCH AS MONETARYCOIN MAY NOT BE SUITABLE FOR INDIVIDUALS NOT OTHERWISE ABLE TO WITHSTAND SIGNIFICANT VOLATILITY AND RISK OF TOTAL, IMMEDIATE AND UNRECOVERABLE LOSS.
 
 CONSULT YOUR TAX, FINANCIAL AND LEGAL ADVISORS TO ASSES YOUR SUITABILITY BEFORE ENGAGING IN THIS OR ANY CRYPTOCURRENCY RELATED TRANSACTION. NOTHING IN THIS DOCUMENT SHALL BE DEEMED TO CREATE A FIDUCIARY RELATIONSHIP BETWEEN OR AMONG ANY PARTIES INTERACTING IN CONNECTION WITH IT.
 
-MONETARYCOIN US TOKENS ARE SO-CALLED, ERC-20 COMPATIBLE TOKENS, ON THE ETHEREUM BLOCKCHAIN. MONETARYCOINERO TOKENS DO NOT HAVE ANY GUARANTEED RIGHTS, USES, PURPOSE, ATTRIBUTES, FUNCTIONALITIES OR FEATURES, EXPRESS OR IMPLIED.
+MONETARYCOIN TOKENS ARE SO-CALLED, ERC-20 COMPATIBLE TOKENS, ON THE ETHEREUM BLOCKCHAIN. MONETARYCOIN TOKENS DO NOT HAVE ANY GUARANTEED RIGHTS, USES, PURPOSE, ATTRIBUTES, FUNCTIONALITIES OR FEATURES, EXPRESS OR IMPLIED.
 
 PARTICIPATION IN THIS DISTRIBUTION REQUIRES SIGNIFICANT EXPERTISE IN COMPUTER SCIENCE, AN UNDERSTANDING OF THE ETHEREUM BLOCKCHAIN, AND OF CRYPTOCURENCY IN GENERAL. PLEASE CONSULT WITH A QUALIFIED TECHNOLOGICAL EXPERT BEFORE ACTING.
 
-PURCHASE OF MONETARYCOINERO TOKENS ARE NON-REFUNDABLE AND PURCHASES CANNOT BE CANCELLED.
+PURCHASE OF MONETARYCOIN TOKENS ARE NON-REFUNDABLE AND PURCHASES CANNOT BE CANCELLED.
 
-MONETARYCOINERO TOKENS MAY HAVE NO VALUE. YOU MAY LOSE ALL AMOUNTS PAID.
+MONETARYCOIN TOKENS MAY HAVE NO VALUE. YOU MAY LOSE ALL AMOUNTS PAID.
 
-THERE IS NO REPRESENTATION, WARRANTY OR GUARANTEE THAT THE PROCESS OF PURCHASING MONETARYCOINERO TOKENS OR RECEIVING MONETARYCOINERO TOKENS WILL BE UNINTERRUPTED OR ERROR-FREE OR THAT THE MONETARYCOINERO TOKENS ARE RELIABLE AND ERROR FREE.
+EACH PARTY TO THE SMART CONTRACT ACKNOWLEDGES AND AGREES THAT ANY DISPUTE IS LIKELY TO INVOLVE COMPLICATED AND DIFFICULTY ISSUES, AND THEREFORE IT KNOWINGLY, VOLUNTARILY, INTENTIONALLY, IRREVOCABLY AND UNCONDITIONALLY WAIVES ANY RIGHT IT MAY HAVE TO A TRIAL BY JURY IN RESPECT OF ANY DISPUTE IN ALL JURISDICTIONS.
+
+ALL CLAIMS, OBLIGATIONS, LIABILITIES OR CAUSES OF ACTION (WHETHER IN CONTRACT, COMMON OR STATUTORY LAW, EQUITY OR OTHERWISE) THAT ARISE OUT OF OR RELATE TO THIS TRANSACTION (INCLUDING ANY REPRESENTATION OR WARRANTY MADE IN, IN CONNECTION WITH OR AS AN INDUCEMENT TO THE TRANSACTION), MAY BE MADE ONLY AGAINST THE IMMEDIATE PARTIES TO THE SMART CONTRACT (“SMART CONTRACTING PARTIES”). NO PERSON WHO IS NOT A SMART CONTRACTING PARTY, INCLUDING ANY OFFICER, EMPLOYEE, MEMBER, PARTNER OR MANAGER ACTING ON BEHALF OF ANY SMART CONTRACTING PARTY (“NONPARTY AFFILIATES”) SHALL HAVE ANY LIABILITY (WHETHER IN CONTRACT, TORT, COMMON OR STATUTORY LAW, EQUITY OR OTHERWISE) FOR ANY CLAIMS, OBLIGATIONS, LIABILITIES OR CAUSES OF ACTION ARISING OUT OF OR RELATING IN ANY MATTER TO THIS AGREEMENT OR THE NEGOTIATION, EXECUTION, PERFORMANCE OR BREACH OF THE SMART CONTRACT AND TO THE MAXIMUM EXTENT PERMITTED BY LAW, EACH SMART CONTRACTING PARTY HEREBY WAIVES AND RELEASES ALL SUCH LIABILITIES, CLAIMS, CAUSES OF ACTION AND OBLIGATIONS AGAINST ANY SUCH NONPARTY AFFILIATES.
+
+THERE IS NO REPRESENTATION, WARRANTY OR GUARANTEE THAT THE PROCESS OF PURCHASING MONETARYCOIN TOKENS OR RECEIVING MONETARYCOIN TOKENS WILL BE UNINTERRUPTED OR ERROR-FREE OR THAT THE MONETARYCOIN TOKENS ARE RELIABLE AND ERROR FREE.
 
 THERE IS NO REPRESENTATION, WARRANTY OR GUARANTEE THAT THE SAMPLE COMPUTER CODE PROVIDED HEREIN WILL FUNCTION AS INTENDED OR IS OTHERWISE RELIABLE AND ERROR FREE.
 
-PLEASE READ THE ENTIRE MONETARYCOIN WHITE PAPER AND THE MONETARYCOINERO TOKEN DISTRIBUTION SCHEDULE, RESPECTIVELY, IN THEIR ENTIRETY, PRIOR TO SENDING ETH AND PURCHASING MONETARYCOINERO TOKENS.
-
-MonetaryCoin@protonmail.com
+PLEASE READ THE ENTIRE MONETARYCOIN WHITE PAPER AND THE MONETARYCOIN TOKEN DISTRIBUTION SCHEDULE, RESPECTIVELY, IN THEIR ENTIRETY, PRIOR TO SENDING ETH AND PURCHASING MONETARYCOIN TOKENS.
 
 ©2018 BY MONETARYCOIN.ORG
