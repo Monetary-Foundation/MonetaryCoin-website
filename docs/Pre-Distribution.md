@@ -1,5 +1,4 @@
 # MONETARYCOIN
-
 ## MERO Distribution
 MonetaryCoin@protonmail.com
 
@@ -26,15 +25,15 @@ At the end of each 23 hour period referred to above, a set number of MonetaryCoi
 
 MonetaryCoinERO Tokens distributed to the purchaser at the end of the period = a * (b/c)
 
-a = Total ETH contributed by an authorized purchaser during the period.
-b = Total number of MonetaryCoinERO Tokens available for distribution in the period.
-c = Total ETH contributed by all authorized purchasers during the period.
+* a = Total ETH contributed by an authorized purchaser during the period.
+* b = Total number of MonetaryCoinERO Tokens available for distribution in the period.
+* c = Total ETH contributed by all authorized purchasers during the period.
 
 To participate in the MonetaryCoinERO Token distribution, you will need to send ETH to the Ethereum MonetaryCoinERO distribution smart contract (the “MonetaryCoinERO Distribution Contract”) during a period of your choice. The MonetaryCoinERO Token can only be claimed when such period is completed. The minimum contribution amount is 0.01 ETH.
 
 MonetaryCoinERO Token will automatically be transferred to the Ethereum address used to purchase MonetaryCoinERO Token. MonetaryCoinERO Token can only be claimed after the period pursuant to which you have purchased your MonetaryCoinERO Token has ended.
 
-**The minimum participation amount is 0.01 ETH. If one sends anything other than ETH to the MonetaryCoinERO Token Distribution Contract, such transaction will be null and void.
+#### The minimum participation amount is 0.01 ETH. If one sends anything other than ETH to the MonetaryCoinERO Token Distribution Contract, such transaction will be null and void.
 
 ## CONFIGURATION
 In order to make sure ETH are sent and received correctly, the following configuration should be considered:
@@ -49,25 +48,25 @@ Any compatible wallet can be used to participate in the token distribution. One 
 
 To be compatible, a wallet must meet the following criteria:
 
--Able to export your private key
--Able to call arbitrary contract methods
+* Able to export your private key
+* Able to call arbitrary contract methods
 
 Please note that you should ensure that whatever wallet you use, the “claim” and “register” methods related to the MonetaryCoinERO Distribution Contract are possible.
 
 ## INCOMPATIBLE WALLETS
 There are many incompatible wallets, please check to make sure that your wallet meets the compatible wallet criteria before sending any ETH. The following wallets are known to be incompatible wallets; this is not a complete list. any of the following wallets to participate in the MonetaryCoinERO Token distribution.
 
--Any Bitcoin exchange
--Any Ethereum exchange
--Bitfinex
--Bittrex
--Bitstamp
--Cex.io
--Coinbase
--Exodus
--Jaxx
--Kraken
--Poloniex
+* Any Bitcoin exchange
+* Any Ethereum exchange
+* Bitfinex
+* Bittrex
+* Bitstamp
+* Cex.io
+* Coinbase
+* Exodus
+* Jaxx
+* Kraken
+* Poloniex
 
 ## WHERE DO I SEND MY ETHEREUM?
 The Ethereum address for the token distribution is:
