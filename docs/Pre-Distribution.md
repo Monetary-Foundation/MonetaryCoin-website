@@ -1,6 +1,5 @@
 # MONETARYCOIN
-## MERO Distribution
-MonetaryCoin@protonmail.com
+## MonetaryCoinERO (MERO) Distribution
 
 ## HOW MANY TOKENS WILL BE AVAIALABLE?
 
@@ -38,8 +37,8 @@ MonetaryCoinERO Token will automatically be transferred to the Ethereum address 
 ## CONFIGURATION
 In order to make sure ETH are sent and received correctly, the following configuration should be considered:
 
-Browser: Google Chrome
-Wallet: Metamask
+* Browser: Google Chrome
+* Wallet: Metamask
 
 # CREATE SECTION TO DESCRIBE THE APP
 
