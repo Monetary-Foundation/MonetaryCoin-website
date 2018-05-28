@@ -13,6 +13,11 @@
     font-style: normal;
 
 }
+
+.fancyHead{
+  line-height: 1.4em;
+}
+
 .align-item-center {
   display: -webkit-box;
   display: -webkit-flex;
@@ -490,7 +495,7 @@ a, button {
   content: "";
   position: absolute;
   bottom: 0;
-  width: 50px;
+  width: 4.1em;
   height: 5px;
   background-color: #FED382;
   border-radius: 50px;
