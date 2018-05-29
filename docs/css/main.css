@@ -17,6 +17,13 @@
 .fancyHead{
   line-height: 1.4em;
 }
+.subheader-grey{
+  text-align: center;
+  color: #b3b3b3;
+}
+.media-body{
+  
+}
 
 .align-item-center {
   display: -webkit-box;
@@ -610,6 +617,7 @@ div.timer span {
   box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.1);
 }
 .benifit-box h3 {
+  line-height: 1.4em;
   font-size: 1.27em;
   margin-top: 10px;
 }
