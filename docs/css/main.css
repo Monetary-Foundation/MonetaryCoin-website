@@ -24,6 +24,12 @@
 .media-body{
   
 }
+.space-up{
+  padding-top: 3em; 
+}
+.space-bottom{
+  margin-bottom: 3em; 
+}
 
 .align-item-center {
   display: -webkit-box;
