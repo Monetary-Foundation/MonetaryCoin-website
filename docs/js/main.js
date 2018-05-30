@@ -42,6 +42,28 @@ setInterval(function() {
 var NavBar = $('.navbar ');
 /*---------Timer-end-----------*/
 
+/*---------auto-play video-----------*/
+autoPlayYouTubeModal();
+
+//FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
+function autoPlayYouTubeModal() {
+    var trigger = $("body").find('[data-toggle="modal"]');
+    trigger.click(function () {
+        var theModal = $(this).data("target"),
+            videoSRC = $(this).attr("data-theVideo"),
+            videoSRCauto = videoSRC + "?autoplay=1";
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal + ' button.close').click(function () {
+            $(theModal + ' iframe').attr('src', videoSRC);
+            // console.log('fire1');
+        });
+        $('#videoModal').on('hide.bs.modal', function (e) {
+            $(theModal + ' iframe').attr('src', videoSRC);
+            // console.log('fire2');
+          })
+        
+    });
+}
 /*------------------------------------- 2.Smooth scroll --------------------------------*/
 $(document).ready(function() {
     $('.redirect-btn, .navbar a').on('click', function(event) {
@@ -164,3 +186,4 @@ $(document).ready(function($) {
     /*----------------------- 6.Loader JS -------------------*/
     $('.site-loader').fadeOut(600);
 });
+
