@@ -9,7 +9,7 @@ The MonetaryCoinERO Token distribution will take place in two stages, a 7 day st
 
 112,800,600,000 (112 billion) ERC-20 compatible MonetaryCoinERO (MERO) Tokens will be distributed according to the schedule below:
 
-    MonetaryCoinERO Tokens                                  Sale Schedule
+    MonetaryCoinERO Tokens                                  Distribution Schedule
 
     1. 844,536,898 (844 million)               July 10th, 2018 00:00:01 UTC–July 17th, 2018 12:59:59 UTC
     
@@ -42,7 +42,7 @@ The MonetaryCoinCHI Token distribution will take place in two stages, a 7 day st
 
 173,985,950,000,000 (173,986 billion) ERC-20 compatible MonetaryCoinERO (MCHI) Tokens will be distributed according to the schedule below:
 
-    MonetaryCoinCHI Tokens                                  Sale Schedule
+    MonetaryCoinCHI Tokens                                  Distribution Schedule
 
     1. 13,025,686,096 (13.0 billion)               July 10th, 2018 00:00:01 UTC–July 17th, 2018 12:59:59 UTC
     
