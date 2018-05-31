@@ -1,7 +1,8 @@
 # MONETARYCOIN DISTRIBUTION
+
 ## MonetaryCoinERO (MERO) and MonetaryCoinCHI (MCHI)
 
-## HOW MANY MERO TOKENS WILL BE AVAIALABLE?
+### HOW MANY MERO TOKENS WILL BE AVAIALABLE?
 
 10% of MonetaryCoinERO Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 90% of MonetaryCoinERO Tokens will be available for Proof of Stake forging along with any unclaimed coins.
 
@@ -18,21 +19,6 @@ Split evenly into 7 consecutive 23 hour periods of 120,648,128 MonetaryCoinERO T
     2. 10,436,063,102 (10.4 billion)          July 18th, 2018 00:00:01 UTC–December 30th, 2018 12:59:59 UTC
     
 Split evenly into 173 consecutive 23 hour periods of 60,324,064 MonetaryCoinERO Tokens each.
-
-## HOW DOES MERO DISTRIBUTION WORK?
-At the end of each 23 hour period referred to above, a set number of MonetaryCoinERO Tokens will be distributed pro-rata amongst all authorized participants, based on the total ETH contributed during those periods, respectively, as follows:
-
-MonetaryCoinERO Tokens distributed to the participant at the end of the period = a * (b/c)
-
-* a = Total ETH contributed by an authorized participant during the period.
-* b = Total number of MonetaryCoinERO Tokens available for distribution in the period.
-* c = Total ETH contributed by all authorized participants during the period.
-
-To participate in the MonetaryCoinERO Token distribution, you will need to send ETH to the Ethereum MonetaryCoinERO distribution smart contract (the “MonetaryCoinERO Distribution Contract”) during a period of your choice. The MonetaryCoinERO Token can only be claimed when such period is completed. The minimum contribution amount is 0.01 ETH.
-
-After a participant calls "withdraw()" MonetaryCoinERO Token is expected to be automatically transferred to the Ethereum address from which ETH was sent as part of the MonetaryCoinERO Token distribution. MonetaryCoinERO Token can only be claimed after the period pursuant to which you have participated has ended.
-
-#### The minimum participation amount is 0.01 ETH. If one sends anything other than ETH to the MonetaryCoinERO Token Distribution Contract, such transaction will be null and void.
 
 ## HOW MANY MCHI TOKENS WILL BE AVAIALABLE?
 
@@ -52,18 +38,18 @@ Split evenly into 7 consecutive 23 hour periods of 1,860,812,299 MonetaryCoinCHI
     
 Split evenly into 173 consecutive 23 hour periods of 930,406,150 MonetaryCoinCHI (MCHI) Tokens each.
 
-## HOW DOES MCHI DISTRIBUTION WORK?
-The MCHI distribution similar in many respects to the MERO distribution. At the end of each 23 hour period referred to above, a set number of MonetaryCoinCHI Tokens will be distributed pro-rata amongst all authorized participants, based on the total ETH contributed during those periods, respectively, as follows:
+## HOW DOES THE DISTRIBUTION WORK?
+At the end of each 23 hour period referred to above, a set number of MonetaryCoin Tokens will be distributed pro-rata amongst all authorized participants, based on the total ETH contributed during those periods, respectively, as follows:
 
-MonetaryCoinCHI Tokens distributed to the participant at the end of the period = a * (b/c)
+MonetaryCoin Tokens distributed to the participant at the end of the period = a * (b/c)
 
 * a = Total ETH contributed by an authorized participant during the period.
-* b = Total number of MonetaryCoinCHI Tokens available for distribution in the period.
+* b = Total number of MonetaryCoin Tokens available for distribution in the period.
 * c = Total ETH contributed by all authorized participants during the period.
 
-To participate in the MonetaryCoinCHI Token distribution, you will need to send ETH to the Ethereum MonetaryCoinCHI distribution smart contract (the “MonetaryCoinCHI Distribution Contract”) during a period of your choice. The MonetaryCoinCHI Token can only be claimed when such period is completed. The minimum contribution amount is 0.01 ETH.
+To participate in the MonetaryCoin Token distribution, you will need to send ETH to the Ethereum MonetaryCoin distribution smart contract (the “MonetaryCoin Distribution Contract”) during a period of your choice. The MonetaryCoin Token can only be claimed when such period is completed. The minimum contribution amount is 0.01 ETH.
 
-After a participant calls "withdraw()" MonetaryCoinCHI Token is expected to be automatically transferred to the Ethereum address from which ETH was sent as part of the MonetaryCoinCHI Token distribution. MonetaryCoinCHI Token can only be claimed after the period pursuant to which you have participated has ended.
+After a participant calls "withdraw()" MonetaryCoin Token is expected to be automatically transferred to the Ethereum address from which ETH was sent as part of the MonetaryCoin Token distribution. MonetaryCoin Token can only be claimed after the period pursuant to which you have participated has ended.
 
 #### The minimum participation amount is 0.01 ETH. If one sends anything other than ETH to the MonetaryCoinCHI Token Distribution Contract, such transaction will be null and void.
 
