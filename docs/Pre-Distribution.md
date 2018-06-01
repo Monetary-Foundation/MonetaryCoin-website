@@ -1,69 +1,55 @@
 # MONETARYCOIN DISTRIBUTION
+
 ## MonetaryCoinERO (MERO) and MonetaryCoinCHI (MCHI)
 
-## HOW MANY MERO TOKENS WILL BE AVAIALABLE?
+### HOW MANY MERO TOKENS WILL BE AVAIALABLE?
 
-10% of MonetaryCoinERO Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 80% of MonetaryCoinERO Tokens will be available for Proof of Stake forging along with any unclaimed coins.
+10% of MonetaryCoinERO Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 90% of MonetaryCoinERO Tokens will be available for Proof of Stake forging along with any unclaimed coins.
 
-The MonetaryCoinERO Token distribution will take place in two stages, a 7 day stage, and a 173 day stage over a total of 180 days. The first stage of the distribution will start on June 1st, 2018 at 00:00:01 UTC.
+The MonetaryCoinERO Token distribution will take place in two stages, a 7 day stage, and a 173 day stage over a total of 180 days. The first stage of the distribution will start on July 10th, 2018 at 00:00:01 UTC.
 
 112,800,600,000 (112 billion) ERC-20 compatible MonetaryCoinERO (MERO) Tokens will be distributed according to the schedule below:
 
-    MonetaryCoinERO Tokens                                  Sale Schedule
+    MonetaryCoinERO Tokens                                  Distribution Schedule
 
-    1. 844,536,898 (844 million)               June 1st, 2018 00:00:01 UTC–June 7th, 2018 12:59:59 UTC
+    1. 844,536,898 (844 million)               July 10th, 2018 00:00:01 UTC–July 17th, 2018 12:59:59 UTC
     
 Split evenly into 7 consecutive 23 hour periods of 120,648,128 MonetaryCoinERO Tokens each.
 
-    2. 10,436,063,102 (10.4 billion)          June 8th, 2018 00:00:01 UTC–November 28th, 2018 12:59:59 UTC
+    2. 10,436,063,102 (10.4 billion)          July 18th, 2018 00:00:01 UTC–December 30th, 2018 12:59:59 UTC
     
 Split evenly into 173 consecutive 23 hour periods of 60,324,064 MonetaryCoinERO Tokens each.
 
-## HOW DOES MERO DISTRIBUTION WORK?
-At the end of each 23 hour period referred to above, a set number of MonetaryCoinERO Tokens will be distributed pro-rata amongst all authorized purchasers, based on the total ETH contributed during those periods, respectively, as follows:
-
-MonetaryCoinERO Tokens distributed to the purchaser at the end of the period = a * (b/c)
-
-* a = Total ETH contributed by an authorized purchaser during the period.
-* b = Total number of MonetaryCoinERO Tokens available for distribution in the period.
-* c = Total ETH contributed by all authorized purchasers during the period.
-
-To participate in the MonetaryCoinERO Token distribution, you will need to send ETH to the Ethereum MonetaryCoinERO distribution smart contract (the “MonetaryCoinERO Distribution Contract”) during a period of your choice. The MonetaryCoinERO Token can only be claimed when such period is completed. The minimum contribution amount is 0.01 ETH.
-
-MonetaryCoinERO Token will automatically be transferred to the Ethereum address used to purchase MonetaryCoinERO Token. MonetaryCoinERO Token can only be claimed after the period pursuant to which you have purchased your MonetaryCoinERO Token has ended.
-
-#### The minimum participation amount is 0.01 ETH. If one sends anything other than ETH to the MonetaryCoinERO Token Distribution Contract, such transaction will be null and void.
-
 ## HOW MANY MCHI TOKENS WILL BE AVAIALABLE?
 
-10% of MonetaryCoinCHI Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 80% of MonetaryCoinCHI Tokens will be available for Proof of Stake forging along with any unclaimed coins.
+10% of MonetaryCoinCHI Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 90% of MonetaryCoinCHI Tokens will be available for Proof of Stake forging along with any unclaimed coins.
 
-The MonetaryCoinCHI Token distribution will take place in two stages, a 7 day stage, and a 173 day stage over a total of 180 days. The first stage of the distribution will start on June 1st, 2018 at 00:00:01 UTC.
+The MonetaryCoinCHI Token distribution will take place in two stages, a 7 day stage, and a 173 day stage over a total of 180 days. The first stage of the distribution will start on July 10th, 2018 at 00:00:01 UTC.
 
 173,985,950,000,000 (173,986 billion) ERC-20 compatible MonetaryCoinERO (MCHI) Tokens will be distributed according to the schedule below:
 
-    MonetaryCoinCHI Tokens                                  Sale Schedule
+    MonetaryCoinCHI Tokens                                  Distribution Schedule
 
-    1. 13,025,686,096 (13.0 billion)               June 1st, 2018 00:00:01 UTC–June 7th, 2018 12:59:59 UTC
+    1. 13,025,686,096 (13.0 billion)               July 10th, 2018 00:00:01 UTC–July 17th, 2018 12:59:59 UTC
     
 Split evenly into 7 consecutive 23 hour periods of 1,860,812,299 MonetaryCoinCHI (MCHI) Tokens each.
 
-    2. 160,960,263,904 (160.9 billion)             June 8th, 2018 00:00:01 UTC–November 28th, 2018 12:59:59 UTC
+    2. 160,960,263,904 (160.9 billion)             July 18th, 2018 00:00:01 UTC–December 30th, 2018 12:59:59 UTC
     
 Split evenly into 173 consecutive 23 hour periods of 930,406,150 MonetaryCoinCHI (MCHI) Tokens each.
 
-## HOW DOES MCHI DISTRIBUTION WORK?
-The MCHI distribution similar in many respects to the MERO distribution. At the end of each 23 hour period referred to above, a set number of MonetaryCoinCHI Tokens will be distributed pro-rata amongst all authorized purchasers, based on the total ETH contributed during those periods, respectively, as follows:
+## HOW DOES THE DISTRIBUTION WORK?
+At the end of each 23 hour period referred to above, a set number of MonetaryCoin Tokens will be distributed pro-rata amongst all authorized participants, based on the total ETH contributed during those periods, respectively, as follows:
 
-MonetaryCoinCHI Tokens distributed to the purchaser at the end of the period = a * (b/c)
+MonetaryCoin Tokens distributed to the participant at the end of the period = a * (b/c)
 
-* a = Total ETH contributed by an authorized purchaser during the period.
-* b = Total number of MonetaryCoinCHI Tokens available for distribution in the period.
-* c = Total ETH contributed by all authorized purchasers during the period.
+* a = Total ETH contributed by an authorized participant during the period.
+* b = Total number of MonetaryCoin Tokens available for distribution in the period.
+* c = Total ETH contributed by all authorized participants during the period.
 
-To participate in the MonetaryCoinCHI Token distribution, you will need to send ETH to the Ethereum MonetaryCoinCHI distribution smart contract (the “MonetaryCoinCHI Distribution Contract”) during a period of your choice. The MonetaryCoinCHI Token can only be claimed when such period is completed. The minimum contribution amount is 0.01 ETH.
+To participate in the MonetaryCoin Token distribution, you will need to send ETH to the Ethereum MonetaryCoin distribution smart contract (the “MonetaryCoin Distribution Contract”) during a period of your choice. The MonetaryCoin Token can only be claimed when such period is completed. The minimum contribution amount is 0.01 ETH.
 
-MonetaryCoinCHI Token will automatically be transferred to the Ethereum address used to purchase MonetaryCoinCHI Token. MonetaryCoinCHI Token can only be claimed after the period pursuant to which you have purchased your MonetaryCoinCHI Token has ended.
+After a participant calls "withdraw()" MonetaryCoin Token is expected to be automatically transferred to the Ethereum address from which ETH was sent as part of the MonetaryCoin Token distribution. MonetaryCoin Token can only be claimed after the period pursuant to which you have participated has ended.
 
 #### The minimum participation amount is 0.01 ETH. If one sends anything other than ETH to the MonetaryCoinCHI Token Distribution Contract, such transaction will be null and void.
 
@@ -151,7 +137,7 @@ $ seth send -F <ETH_ADDRESS> -G 4600000 <CONTRACT_ADDRESS> "withdrawAll()" <ETH_
 **IF YOU INTEND TO PARTICIPATE IN BOTH MERO AND MCHI MAKE SURE TO USE THE CORRECT ADDRESS FOR EACH OFFERING.
 
 ## DISCLAIMER
-NO U.S. OR CHINESE PURCHASERS - MONETARYCOIN TOKENS ARE NOT BEING OFFERED OR DISTRIBUTED TO U.S. PERSONS OR CHINESE PERSONS.
+NO U.S. OR CHINESE PARTICIPANTS - MONETARYCOIN TOKENS ARE NOT BEING OFFERED OR DISTRIBUTED TO U.S. PERSONS OR CHINESE PERSONS.
 THE FINANCIAL AND LEGAL RISKS RELATED TO ACQUISITION, POSSEESION AND DISPOSITION OF CRYPTOCURRENCY SUCH AS MONETARYCOIN ARE LARGELY UNKNOWN TODAY.
 
 CRYPTOCURRENCIES SUCH AS MONETARYCOIN MAY NOT BE SUITABLE FOR INDIVIDUALS NOT OTHERWISE ABLE TO WITHSTAND SIGNIFICANT VOLATILITY AND RISK OF TOTAL, IMMEDIATE AND UNRECOVERABLE LOSS.
@@ -162,7 +148,7 @@ MONETARYCOIN TOKENS ARE SO-CALLED, ERC-20 COMPATIBLE TOKENS, ON THE ETHEREUM BLO
 
 PARTICIPATION IN THIS DISTRIBUTION REQUIRES SIGNIFICANT EXPERTISE IN COMPUTER SCIENCE, AN UNDERSTANDING OF THE ETHEREUM BLOCKCHAIN, AND OF CRYPTOCURENCY IN GENERAL. BEFORE ACTING PLEASE CONSULT WITH A QUALIFIED TECHNOLOGICAL EXPERT IN ADDITION TO TAX, FINANCIAL AND LEGAL ADVISORS.
 
-PURCHASE OF MONETARYCOIN TOKENS ARE NON-REFUNDABLE AND PURCHASES CANNOT BE CANCELLED.
+MONETARYCOIN TOKENS ARE NON-REFUNDABLE AND ACQUISITION OF MONETARYCOIN TOKENS CANNOT BE CANCELLED.
 
 MONETARYCOIN TOKENS MAY HAVE NO VALUE. YOU MAY LOSE ALL AMOUNTS TRANSMITTED.
 
@@ -176,4 +162,4 @@ THERE IS NO REPRESENTATION, WARRANTY OR GUARANTEE THAT THE SAMPLE COMPUTER CODE 
 
 PLEASE READ THE ENTIRE MONETARYCOIN WHITE PAPER AND THE MONETARYCOIN TOKEN DISTRIBUTION SCHEDULES, RESPECTIVELY, IN THEIR ENTIRETY, PRIOR TO SENDING ETH IN PURSUIT OF MONETARYCOIN TOKENS.
 
-©2018 BY MONETARYCOIN.ORG
+MONETARYCOIN.ORG
