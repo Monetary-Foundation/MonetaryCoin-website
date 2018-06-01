@@ -693,7 +693,7 @@ div.timer span {
   margin-top: -30px;
 }
 .services-list div {
-  width: calc(35.33% - 30px);
+  width: calc(45% - 30px);
   background-color: #fff;
   margin: 30px 0 0px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
@@ -1840,7 +1840,7 @@ ul.template-list li:first-child {
 	background: url(../images/particle-left.png);
 }
 .services-list div {
-  width: calc(35.33% - 30px);
+  width: calc(45% - 30px);
   background-color: #fff;
   margin: 30px 0 0px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
