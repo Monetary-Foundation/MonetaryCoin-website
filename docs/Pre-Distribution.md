@@ -106,14 +106,14 @@ There are many incompatible wallets, please check to make sure that your wallet 
 ## WHERE DO I SEND MY ETHEREUM FOR MonetaryCoinERO (MERO)?
 The Ethereum address for the MonetaryCoinERO (MERO) token distribution is:
 
-**XXXXXXXXXXXXXXXXXXXXXXXXXXXXX**
+**0x928d06fba1226f83aa3df853ecae911e0c0ec499**
 
 ### DO NOT SEND ETH FROM AN EXCHANGE. If you send ETH to the MonetaryCoinERO Token Distribution Contract from an exchange account, your MonetaryCoinERO tokens will be allocated to the exchange's ETH account and you may never receive or be able to recover your MonetaryCoinERO tokens.
 
 ## WHERE DO I SEND MY ETHEREUM FOR MonetaryCoinCHI (MCHI)?
 The Ethereum address for the MonetaryCoinCHI (MCHI) token distribution is:
 
-**XXXXXXXXXXXXXXXXXXXXXXXXXXXXX**
+**0xcf262897f3aa3ba822b71590ada68b2e72a991b6**
 
 ### DO NOT SEND ETH FROM AN EXCHANGE. If you send ETH to the MonetaryCoinCHI Token Distribution Contract from an exchange account, your MonetaryCoinCHI tokens will be allocated to the exchange's ETH account and you may never receive or be able to recover your MonetaryCoinCHI tokens.
 
@@ -137,7 +137,8 @@ One would need the Truffle console to work with the MonetaryCoinERO and Monetary
 
 ```bash
 $ git clone https://github.com/Monetary-Foundation/MonetaryCoin.git
-$ npm install -g truffle
+$ cd MonetaryCoin
+$ npm install 
 $ export MNEMONIC="YOUR HD KEY"
 $ truffle --network mainnet compile
 $ truffle --network mainnet console
@@ -146,7 +147,7 @@ Example Commands:
 
 Getting Info for current window:
 ```javascript
-$ MCoinDistributionWrap.at("0x0bcb300c55c12d6f183b2a106fee3a8b0bc84403").detailsOfWindow();
+$ MCoinDistributionWrap.at("0x928d06fba1226f83aa3df853ecae911e0c0ec499").detailsOfWindow();
 ```
 
 ```javascript
@@ -160,13 +161,13 @@ $ MCoinDistributionWrap.at("0x0bcb300c55c12d6f183b2a106fee3a8b0bc84403").details
 
 Commiting 0.01 ETH for the current window:
 ```javascript
-$ MCoinDistributionWrap.at("0x0bcb300c55c12d6f183b2a106fee3a8b0bc84403").commit({value: web3.toWei(0.01, "ether")});
+$ MCoinDistributionWrap.at("0x928d06fba1226f83aa3df853ecae911e0c0ec499").commit({value: web3.toWei(0.01, "ether")});
 ```
 
 After window is closed, call to check reward for window 0:
 
 ```javascript
-$ MCoinDistributionWrap.at("0x0bcb300c55c12d6f183b2a106fee3a8b0bc84403").withdraw.call(0);
+$ MCoinDistributionWrap.at("0x928d06fba1226f83aa3df853ecae911e0c0ec499").withdraw.call(0);
 ```
 
 will return the reward (does not consume gas):
@@ -177,7 +178,7 @@ will return the reward (does not consume gas):
 After cheking for a possitive reward, create transaction to get reward for window 0:
 
 ```javascript
-$ MCoinDistributionWrap.at("0x0bcb300c55c12d6f183b2a106fee3a8b0bc84403").withdraw(0);
+$ MCoinDistributionWrap.at("0x928d06fba1226f83aa3df853ecae911e0c0ec499").withdraw(0);
 ```
 
 Will Transfer the tokens to users account
