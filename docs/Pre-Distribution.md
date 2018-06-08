@@ -12,11 +12,11 @@ The MonetaryCoinERO Token distribution will take place in two stages, a 7 day st
 
     MonetaryCoinERO Tokens                                  Distribution Schedule
 
-    1. 844,536,898 (844 million)               July 10th, 2018 00:00:01 UTC–July 17th, 2018 12:59:59 UTC
+    1.    844,536,898 (844 million)               July 10th, 2018 00:00:01 UTC–July 17th, 2018 12:59:59 UTC
     
 Split evenly into 7 consecutive 23 hour periods of 120,648,128 MonetaryCoinERO Tokens each.
 
-    2. 10,436,063,102 (10.4 billion)          July 18th, 2018 00:00:01 UTC–December 30th, 2018 12:59:59 UTC
+    2. 10,436,063,102 (10.4 billion)              July 18th, 2018 00:00:01 UTC–December 30th, 2018 12:59:59 UTC
     
 Split evenly into 173 consecutive 23 hour periods of 60,324,064 MonetaryCoinERO Tokens each.
 
@@ -30,7 +30,7 @@ The MonetaryCoinCHI Token distribution will take place in two stages, a 7 day st
 
     MonetaryCoinCHI Tokens                                  Distribution Schedule
 
-    1. 13,025,686,096 (13.0 billion)               July 10th, 2018 00:00:01 UTC–July 17th, 2018 12:59:59 UTC
+    1.  13,025,686,096 (13.0 billion)              July 10th, 2018 00:00:01 UTC–July 17th, 2018 12:59:59 UTC
     
 Split evenly into 7 consecutive 23 hour periods of 1,860,812,299 MonetaryCoinCHI (MCHI) Tokens each.
 
@@ -56,10 +56,27 @@ After a participant calls "withdraw()" MonetaryCoin Token is expected to be auto
 ## CONFIGURATION
 In order to make sure ETH are sent and received correctly, the following configuration should be considered:
 
-* Browser: Google Chrome
+* Browser: Google Chrome / Firefox
 * Wallet: Metamask
 
-# CREATE SECTION TO DESCRIBE THE APP
+## DApp usage
+It is possible to participate in the MonetaryCoin pre-distribution using the dedicated Dapp
+
+[HTTPS://MonetaryCoin.io](https://MonetaryCoin.io) 
+
+*(Blocked to USA users)*
+
+### Participation instructions using Metamask:
+
+* Unlock Metamask and select network: contracts available on Ropsten and Mainnet
+* Open https://MonetaryCoin.io
+* Commit ETH to one or more open windows using the "commit ETH" button
+* Approve the transaction using the metamask popup window
+* Wait for the window to close
+* Get tokens for a selected window using the "Withdraw tokens" button.
+* Approve the transaction using the metamask popup window
+* Tokens could be seen under tokens tab in metamsk
+
 
 ## COMPATIBLE WALLET
 Any compatible wallet can be used to participate in the token distribution(s). One compatible wallet choice may be found at www.metamask.io.
@@ -116,23 +133,57 @@ Tokens are allocated to the account that sent them. If you send from an exchange
 It is assumed that participants have an Ethereum blockchain client installed. If you don't have the client installed, Parity could be a potential alternative.
 
 ## POTENTIAL CONFIGURATIONS
-One would need the Nix Package Manager to work with the MonetaryCoinERO and MonetaryCoinCHI contracts, respectively, from the command line. These instructions may be applied to attempt to install it, configure it, and then attempt to install a CLI Ethereum helper called Seth:
+One would need the Truffle console to work with the MonetaryCoinERO and MonetaryCoinCHI contracts, respectively, from the command line. These instructions may be applied to Truffle console, a part of the Truffle Ethereum development framework.
 
-$ curl https://nixos.org/nix/install | sh
-$ nix-channel --add https://nix.dapphub.com/pkgs/dapphub
-$ nix-channel --update
-$ nix-env -i seth
-
+```bash
+$ git clone https://github.com/Monetary-Foundation/MonetaryCoin.git
+$ npm install -g truffle
+$ export MNEMONIC="YOUR HD KEY"
+$ truffle --network mainnet compile
+$ truffle --network mainnet console
+```
 Example Commands:
 
-Getting Tokens:
+Getting Info for current window:
+```javascript
+$ MCoinDistributionWrap.at("0x0bcb300c55c12d6f183b2a106fee3a8b0bc84403").detailsOfWindow();
+```
 
-$ seth send -F <ETH_ADDRESS> -G 4600000 --value=$(seth --to-wei <CONTRIBUTION> ETH) <CONTRACT_ADDRESS>
-"commit()"
+```javascript
+[ BigNumber { s: 1, e: 9, c: [ 1528437697 ] },  // "uint256 start": window start timestamp
+  BigNumber { s: 1, e: 9, c: [ 1528447729 ] },  // "uint256 end": window end timestamp
+  BigNumber { s: 1, e: 3, c: [ 5754 ] },        // "uint256 remainingTime": remaining time (sec), zero if ended
+  BigNumber { s: 1, e: 25, c: [ 120648128285, 71428571428571 ] }, // "uint256 allocation": number of tokens to be distributed
+  BigNumber { s: 1, e: 0, c: [ 0 ] },           // "uint256 totalEth": total eth commited this window
+  BigNumber { s: 1, e: 1, c: [ 28 ] } ]         // "uint256 number": # of current window
+  ```
 
-Claiming Tokens:
+Commiting 0.01 ETH for the current window:
+```javascript
+$ MCoinDistributionWrap.at("0x0bcb300c55c12d6f183b2a106fee3a8b0bc84403").commit({value: web3.toWei(0.01, "ether")});
+```
 
-$ seth send -F <ETH_ADDRESS> -G 4600000 <CONTRACT_ADDRESS> "withdrawAll()" <ETH_ADDRESS>
+After window is closed, call to check reward for window 0:
+
+```javascript
+$ MCoinDistributionWrap.at("0x0bcb300c55c12d6f183b2a106fee3a8b0bc84403").withdraw.call(0);
+```
+
+will return the reward (does not consume gas):
+```javascript
+    BigNumber { s: 1, e: 4, c: [ 50 ] }
+```
+
+After cheking for a possitive reward, create transaction to get reward for window 0:
+
+```javascript
+$ MCoinDistributionWrap.at("0x0bcb300c55c12d6f183b2a106fee3a8b0bc84403").withdraw(0);
+```
+
+Will Transfer the tokens to users account
+
+* See MCoinDistribution.sol for full list of commands
+
 
 **IF YOU INTEND TO PARTICIPATE IN BOTH MERO AND MCHI MAKE SURE TO USE THE CORRECT ADDRESS FOR EACH OFFERING.
 
