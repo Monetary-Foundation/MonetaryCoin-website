@@ -4,9 +4,9 @@
 
 ### HOW MANY MERO TOKENS WILL BE AVAIALABLE?
 
-10% of MonetaryCoinERO Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 90% of MonetaryCoinERO Tokens will be available for Proof of Stake forging along with any unclaimed coins.
+10% of MonetaryCoinERO Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 90% of MonetaryCoinERO Tokens, less any coins forged during the distirbution of the initial 10%, will be available for Proof of Stake forging along with any unclaimed coins.
 
-The MonetaryCoinERO Token distribution will take place in two stages, a 7 day stage, and a 173 day stage over a total of 180 days. The first stage of the distribution will start on July 10th, 2018 at 00:00:01 UTC.
+The MonetaryCoinERO Token distribution will take place in two stages, a 7 day window, and a 173 window over a total of 180 windows. The first stage of the distribution will start on July 10th, 2018 at 00:00:01 UTC.
 
 112,800,600,000 (112 billion) ERC-20 compatible MonetaryCoinERO (MERO) Tokens will be distributed according to the schedule below:
 
@@ -22,9 +22,9 @@ Split evenly into 173 consecutive 23 hour periods of 60,324,064 MonetaryCoinERO 
 
 ## HOW MANY MCHI TOKENS WILL BE AVAIALABLE?
 
-10% of MonetaryCoinCHI Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 90% of MonetaryCoinCHI Tokens will be available for Proof of Stake forging along with any unclaimed coins.
+10% of MonetaryCoinCHI Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 90% of MonetaryCoinCHI Tokens, less any coins forged during the distirbution of the initial 10%, will be available for Proof of Stake forging along with any unclaimed coins.
 
-The MonetaryCoinCHI Token distribution will take place in two stages, a 7 day stage, and a 173 day stage over a total of 180 days. The first stage of the distribution will start on July 10th, 2018 at 00:00:01 UTC.
+The MonetaryCoinCHI Token distribution will take place in two stages, a 7 window stage, and a 173 window stage over a total of 180 windows. The first stage of the distribution will start on July 10th, 2018 at 00:00:01 UTC.
 
 173,985,950,000,000 (173,986 billion) ERC-20 compatible MonetaryCoinERO (MCHI) Tokens will be distributed according to the schedule below:
 
@@ -108,14 +108,14 @@ The Ethereum address for the MonetaryCoinERO (MERO) token distribution is:
 
 **XXXXXXXXXXXXXXXXXXXXXXXXXXXXX**
 
-### DO NOT SEND ETH FROM AN EXCHANGE. If you send ETH to MonetaryCoinERO Token Distribution Contract from an exchange account, your MonetaryCoinERO tokens will be allocated to the exchange's ETH account and you may never receive or be able to recover your MonetaryCoinERO tokens.
+### DO NOT SEND ETH FROM AN EXCHANGE. If you send ETH to the MonetaryCoinERO Token Distribution Contract from an exchange account, your MonetaryCoinERO tokens will be allocated to the exchange's ETH account and you may never receive or be able to recover your MonetaryCoinERO tokens.
 
 ## WHERE DO I SEND MY ETHEREUM FOR MonetaryCoinCHI (MCHI)?
 The Ethereum address for the MonetaryCoinCHI (MCHI) token distribution is:
 
 **XXXXXXXXXXXXXXXXXXXXXXXXXXXXX**
 
-### DO NOT SEND ETH FROM AN EXCHANGE. If you send ETH to MonetaryCoinCHI Token Distribution Contract from an exchange account, your MonetaryCoinCHI tokens will be allocated to the exchange's ETH account and you may never receive or be able to recover your MonetaryCoinCHI tokens.
+### DO NOT SEND ETH FROM AN EXCHANGE. If you send ETH to the MonetaryCoinCHI Token Distribution Contract from an exchange account, your MonetaryCoinCHI tokens will be allocated to the exchange's ETH account and you may never receive or be able to recover your MonetaryCoinCHI tokens.
 
 ## TECHNICAL OBSERVATIONS
 The MonetaryCoinERO Token Distribution Contract and the MonetaryCoinCHI Token Distribution Contract each run on the Ethereum network. Please note the following observations particular to the Ethereum network:
