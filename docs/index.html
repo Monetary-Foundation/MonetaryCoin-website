@@ -32,26 +32,6 @@
     <meta name="theme-color" content="#ffffff">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120949237-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        // gtag('js', new Date());
-        // gtag('config', 'UA-120949237-1');
-        function initialiseGoogleAnalytics() {
-            gtag('js', new Date());
-            gtag('config', 'UA-120949237-1');
-        }
-        $(document).bind("user_cookie_already_accepted", function(event, object) {
-         initialiseGoogleAnalytics();
-        });
-
-        $(document).bind("user_cookie_consent_changed", function(event, object) {
-            const userConsentGiven = $(object).attr('consent');
-            if (userConsentGiven) {
-                initialiseGoogleAnalytics();
-            }
-        });
-    </script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="82" class="eupopup eupopup-bottom">
@@ -950,6 +930,26 @@
     </script>
     <script src="js/jquery3.2.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/jquery-eu-cookie-law-popup.css"/>
+    <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            // gtag('js', new Date());
+            // gtag('config', 'UA-120949237-1');
+            function initialiseGoogleAnalytics() {
+                gtag('js', new Date());
+                gtag('config', 'UA-120949237-1');
+            }
+            $(document).bind("user_cookie_already_accepted", function(event, object) {
+             initialiseGoogleAnalytics();
+            });
+    
+            $(document).bind("user_cookie_consent_changed", function(event, object) {
+                const userConsentGiven = $(object).attr('consent');
+                if (userConsentGiven) {
+                    initialiseGoogleAnalytics();
+                }
+            });
+        </script>
     <script src="js/jquery-eu-cookie-law-popup.js"></script>
     <!-- JQUERY LIBRARY -->
     <script src="js/bootstrap.min.js"></script>
