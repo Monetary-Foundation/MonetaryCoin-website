@@ -933,22 +933,22 @@
     <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
-            // gtag('js', new Date());
-            // gtag('config', 'UA-120949237-1');
-            function initialiseGoogleAnalytics() {
-                gtag('js', new Date());
-                gtag('config', 'UA-120949237-1');
-            }
-            $(document).bind("user_cookie_already_accepted", function(event, object) {
-             initialiseGoogleAnalytics();
-            });
+            gtag('js', new Date());
+            gtag('config', 'UA-120949237-1');
+            // function initialiseGoogleAnalytics() {
+            //     gtag('js', new Date());
+            //     gtag('config', 'UA-120949237-1');
+            // }
+            // $(document).bind("user_cookie_already_accepted", function(event, object) {
+            //  initialiseGoogleAnalytics();
+            // });
     
-            $(document).bind("user_cookie_consent_changed", function(event, object) {
-                const userConsentGiven = $(object).attr('consent');
-                if (userConsentGiven) {
-                    initialiseGoogleAnalytics();
-                }
-            });
+            // $(document).bind("user_cookie_consent_changed", function(event, object) {
+            //     const userConsentGiven = $(object).attr('consent');
+            //     if (userConsentGiven) {
+            //         initialiseGoogleAnalytics();
+            //     }
+            // });
         </script>
     <script src="js/jquery-eu-cookie-law-popup.js"></script>
     <!-- JQUERY LIBRARY -->
