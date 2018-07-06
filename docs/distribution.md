@@ -4,7 +4,7 @@
 
 ### HOW MANY MERO TOKENS WILL BE AVAIALABLE?
 
-10% of MonetaryCoinERO Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 90% of MonetaryCoinERO Tokens, less any coins forged during the distirbution of the initial 10%, will be available for Proof of Stake forging along with any unclaimed coins.
+10% of MonetaryCoinERO Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 90% of MonetaryCoinERO Tokens, less any coins forged during the distrIbution of the initial 10%, will be available for Proof of Stake forging along with any unclaimed coins.
 
 The MonetaryCoinERO Token distribution will take place in two stages, a 7 day window, and a 173 window over a total of 180 windows. The first stage of the distribution will start on July 10th, 2018 at 00:00:01 UTC.
 
@@ -22,7 +22,7 @@ Split evenly into 173 consecutive 23 hour periods of 60,324,064 MonetaryCoinERO 
 
 ## HOW MANY MCHI TOKENS WILL BE AVAIALABLE?
 
-10% of MonetaryCoinCHI Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 90% of MonetaryCoinCHI Tokens, less any coins forged during the distirbution of the initial 10%, will be available for Proof of Stake forging along with any unclaimed coins.
+10% of MonetaryCoinCHI Tokens will be distributed according to the schedule described herein. At the conclusion of the distribution, 90% of MonetaryCoinCHI Tokens, less any coins forged during the distribution of the initial 10%, will be available for Proof of Stake forging along with any unclaimed coins.
 
 The MonetaryCoinCHI Token distribution will take place in two stages, a 7 window stage, and a 173 window stage over a total of 180 windows. The first stage of the distribution will start on July 10th, 2018 at 00:00:01 UTC.
 
@@ -49,7 +49,7 @@ MonetaryCoin Tokens distributed to the participant at the end of the period = a 
 
 To participate in the MonetaryCoin Token distribution, you will need to send ETH to the Ethereum MonetaryCoin distribution smart contract (the “MonetaryCoin Distribution Contract”) during a period of your choice using the DApp (see below). The MonetaryCoin Token can only be claimed when such period is completed. The minimum contribution amount is 0.01 ETH.
 
-After a participant calls "withdraw()" MonetaryCoin Token is expected to be automatically transferred to the Ethereum address from which ETH was sent as part of the MonetaryCoin Token distribution. MonetaryCoin Token can only be claimed after the period pursuant to which you have participated has ended.
+After a participant uses the DApp to request a withdrawal of tokens, MonetaryCoin Tokens are expected to be automatically transferred to the Ethereum Metamask address from which ETH was sent as part of the MonetaryCoin Token distribution. MonetaryCoin Token can only be claimed after the window pursuant to which you have participated has ended.
 
 #### The minimum participation amount is 0.01 ETH. If one sends anything other than ETH to the MonetaryCoinCHI Token Distribution Contract, such transaction will be null and void.
 
@@ -64,7 +64,6 @@ To participate in the MonetaryCoin pre-distribution you must use the dedicated D
 
 [HTTPS://MonetaryCoin.io](https://MonetaryCoin.io).
 
-
 ### Participation instructions using Metamask:
 
 * Unlock Metamask and select network: contracts available on Ropsten and Mainnet
@@ -76,7 +75,6 @@ To participate in the MonetaryCoin pre-distribution you must use the dedicated D
 * Approve the transaction using the metamask popup window
 * Tokens may be seen under tokens tab in metamsk
 
-
 ## COMPATIBLE WALLET
 The required DApp is integrated with www.metamask.io. 
 
@@ -86,10 +84,16 @@ There are many incompatible wallets, please be sure to use the DApp and MetaMask
 ## WHERE DO I SEND MY ETHEREUM FOR MonetaryCoinERO (MERO)?
 Use the DApp at www.monetarycoin.io, as described above.
 
+## WHAT IS THE TOKEN CONTRACT ADDRESS FOR MERO USED BY THE DAPP AND METAMASK?
+0x227412a7d92bca453b5e2f790fc8282ca2e1a686
+
 ### DO NOT SEND ETH FROM AN EXCHANGE. If you send ETH to the MonetaryCoinERO Token Distribution Contract from an exchange account, your MonetaryCoinERO tokens will be allocated to the exchange's ETH account and you may never receive or be able to recover your MonetaryCoinERO tokens.
 
 ## WHERE DO I SEND MY ETHEREUM FOR MonetaryCoinCHI (MCHI)?
 Use the DApp at www.monetarycoin.io, as described above.
+
+## WHAT IS THE TOKEN CONTRACT ADDRESS FOR MCHI USED BY THE DAPP AND METAMASK?
+0x6644fc3e5224d28ba9172bfaa21359d43bbd4190
 
 ### DO NOT SEND ETH FROM AN EXCHANGE. If you send ETH to the MonetaryCoinCHI Token Distribution Contract from an exchange account, your MonetaryCoinCHI tokens will be allocated to the exchange's ETH account and you may never receive or be able to recover your MonetaryCoinCHI tokens.
 
@@ -105,7 +109,7 @@ The Ethereum network is prone to periodic congestion during which transactions c
 ### Do not fund Token Distribution Contract from a Metamask wallet you do not control:
 Tokens are allocated to the account that sent them. If you send from an exchange or other account that you do not control then you may not be able to claim your MonetaryCoinERO Tokens or MonetaryCoinCHI Tokens without their help.
 
-**IF YOU INTEND TO PARTICIPATE IN BOTH MERO AND MCHI MAKE SURE TO USE THE CORRECT ADDRESS FOR EACH OFFERING.
+**IF YOU INTEND TO PARTICIPATE IN BOTH MERO AND MCHI MAKE SURE TO USE THE MENU IN THE UPPER RIGHT HAND CORNER OF THE DAPP TO TOGGLE BETWEEN EACH OFFERING.
 
 ## DISCLAIMER
 NO US PARTICIPANTS WITHOUT SATISFACTORY PROOF OF ACCREDITED INVESTOR STATUS, NO CHINESE PARTICIPANTS - MONETARYCOIN TOKENS ARE NOT BEING OFFERED OR DISTRIBUTED TO CHINESE PERSONS.
