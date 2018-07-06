@@ -47,7 +47,7 @@ MonetaryCoin Tokens distributed to the participant at the end of the period = a 
 * b = Total number of MonetaryCoin Tokens available for distribution in the period.
 * c = Total ETH contributed by all authorized participants during the period.
 
-To participate in the MonetaryCoin Token distribution, you will need to send ETH to the Ethereum MonetaryCoin distribution smart contract (the “MonetaryCoin Distribution Contract”) during a period of your choice. The MonetaryCoin Token can only be claimed when such period is completed. The minimum contribution amount is 0.01 ETH.
+To participate in the MonetaryCoin Token distribution, you will need to send ETH to the Ethereum MonetaryCoin distribution smart contract (the “MonetaryCoin Distribution Contract”) during a period of your choice using the DApp (see below). The MonetaryCoin Token can only be claimed when such period is completed. The minimum contribution amount is 0.01 ETH.
 
 After a participant calls "withdraw()" MonetaryCoin Token is expected to be automatically transferred to the Ethereum address from which ETH was sent as part of the MonetaryCoin Token distribution. MonetaryCoin Token can only be claimed after the period pursuant to which you have participated has ended.
 
@@ -60,9 +60,9 @@ In order to make sure ETH are sent and received correctly, the following configu
 * Wallet: Metamask
 
 ## DApp usage
-It is possible to participate in the MonetaryCoin pre-distribution using the dedicated Dapp
+To participate in the MonetaryCoin pre-distribution you must use the dedicated Dapp
 
-[HTTPS://MonetaryCoin.io](https://MonetaryCoin.io) 
+[HTTPS://MonetaryCoin.io](https://MonetaryCoin.io).
 
 
 ### Participation instructions using Metamask:
@@ -74,45 +74,22 @@ It is possible to participate in the MonetaryCoin pre-distribution using the ded
 * Wait for the window to close
 * Get tokens for a selected window using the "Withdraw tokens" button.
 * Approve the transaction using the metamask popup window
-* Tokens could be seen under tokens tab in metamsk
+* Tokens may be seen under tokens tab in metamsk
 
 
 ## COMPATIBLE WALLET
-Any compatible wallet can be used to participate in the token distribution(s). One compatible wallet choice may be found at www.metamask.io.
-
-To be compatible, a wallet must meet the following criteria:
-
-* Able to export your private key
-* Able to call arbitrary contract methods
-
-Please note that you should ensure that whatever wallet you use, the “claim” and “register” methods are possible as they relate to the MonetaryCoinERO and MonetaryCoinCHI Distribution Contracts, respectively.
+The required DApp is integrated with www.metamask.io. 
 
 ## INCOMPATIBLE WALLETS
-There are many incompatible wallets, please check to make sure that your wallet meets the compatible wallet criteria before sending any ETH. The following wallets are known to be incompatible wallets; this is not a complete list. Do NOT use any of the following wallets to participate in either the MonetaryCoinERO or MonetaryCoinCHI Token distributions, respectively.
-
-* Any Bitcoin exchange
-* Any Ethereum exchange
-* Bitfinex
-* Bittrex
-* Bitstamp
-* Cex.io
-* Coinbase
-* Exodus
-* Jaxx
-* Kraken
-* Poloniex
+There are many incompatible wallets, please be sure to use the DApp and MetaMask.
 
 ## WHERE DO I SEND MY ETHEREUM FOR MonetaryCoinERO (MERO)?
-The Ethereum address for the MonetaryCoinERO (MERO) token distribution is:
-
-**0x928d06fba1226f83aa3df853ecae911e0c0ec499**
+Use the DApp at www.monetarycoin.io, as described above.
 
 ### DO NOT SEND ETH FROM AN EXCHANGE. If you send ETH to the MonetaryCoinERO Token Distribution Contract from an exchange account, your MonetaryCoinERO tokens will be allocated to the exchange's ETH account and you may never receive or be able to recover your MonetaryCoinERO tokens.
 
 ## WHERE DO I SEND MY ETHEREUM FOR MonetaryCoinCHI (MCHI)?
-The Ethereum address for the MonetaryCoinCHI (MCHI) token distribution is:
-
-**0xcf262897f3aa3ba822b71590ada68b2e72a991b6**
+Use the DApp at www.monetarycoin.io, as described above.
 
 ### DO NOT SEND ETH FROM AN EXCHANGE. If you send ETH to the MonetaryCoinCHI Token Distribution Contract from an exchange account, your MonetaryCoinCHI tokens will be allocated to the exchange's ETH account and you may never receive or be able to recover your MonetaryCoinCHI tokens.
 
@@ -125,70 +102,14 @@ On the Ethereum blockchain, timing of block production is determined by proof of
 ### Network Congestion:
 The Ethereum network is prone to periodic congestion during which transactions can be delayed or lost. Some individuals may intentionally spam the Ethereum network in an attempt to gain an advantage. Do not assume Ethereum block producers will include your transaction when you want or that your transaction will be included at all. This is a limitation of Ethereum and not the MonetaryCoinERO Token Distribution Contract or the MonetaryCoinCHI Distribution Contract.
 
-### Do not fund Token Distribution Contract from an account you do not control:
+### Do not fund Token Distribution Contract from a Metamask wallet you do not control:
 Tokens are allocated to the account that sent them. If you send from an exchange or other account that you do not control then you may not be able to claim your MonetaryCoinERO Tokens or MonetaryCoinCHI Tokens without their help.
-
-## COMMAND LINE USAGE
-It is assumed that participants have an Ethereum blockchain client installed. If you don't have the client installed, Parity could be a potential alternative.
-
-## POTENTIAL CONFIGURATIONS
-One would need the Truffle console to work with the MonetaryCoinERO and MonetaryCoinCHI contracts, respectively, from the command line. These instructions may be applied to Truffle console, a part of the Truffle Ethereum development framework.
-
-```bash
-$ git clone https://github.com/Monetary-Foundation/MonetaryCoin.git
-$ cd MonetaryCoin
-$ npm install 
-$ export MNEMONIC="YOUR HD KEY"
-$ truffle --network mainnet compile
-$ truffle --network mainnet console
-```
-Example Commands:
-
-Getting Info for current window:
-```javascript
-$ MCoinDistributionWrap.at("0x928d06fba1226f83aa3df853ecae911e0c0ec499").detailsOfWindow();
-```
-
-```javascript
-[ BigNumber { s: 1, e: 9, c: [ 1528437697 ] },  // "uint256 start": window start timestamp
-  BigNumber { s: 1, e: 9, c: [ 1528447729 ] },  // "uint256 end": window end timestamp
-  BigNumber { s: 1, e: 3, c: [ 5754 ] },        // "uint256 remainingTime": remaining time (sec), zero if ended
-  BigNumber { s: 1, e: 25, c: [ 120648128285, 71428571428571 ] }, // "uint256 allocation": number of tokens to be distributed
-  BigNumber { s: 1, e: 0, c: [ 0 ] },           // "uint256 totalEth": total eth commited this window
-  BigNumber { s: 1, e: 1, c: [ 28 ] } ]         // "uint256 number": # of current window
-  ```
-
-Commiting 0.01 ETH for the current window:
-```javascript
-$ MCoinDistributionWrap.at("0x928d06fba1226f83aa3df853ecae911e0c0ec499").commit({value: web3.toWei(0.01, "ether")});
-```
-
-After window is closed, call to check reward for window 0:
-
-```javascript
-$ MCoinDistributionWrap.at("0x928d06fba1226f83aa3df853ecae911e0c0ec499").withdraw.call(0);
-```
-
-will return the reward (does not consume gas):
-```javascript
-    BigNumber { s: 1, e: 4, c: [ 50 ] }
-```
-
-After cheking for a possitive reward, create transaction to get reward for window 0:
-
-```javascript
-$ MCoinDistributionWrap.at("0x928d06fba1226f83aa3df853ecae911e0c0ec499").withdraw(0);
-```
-
-Will Transfer the tokens to users account
-
-* See MCoinDistribution.sol for full list of commands
-
 
 **IF YOU INTEND TO PARTICIPATE IN BOTH MERO AND MCHI MAKE SURE TO USE THE CORRECT ADDRESS FOR EACH OFFERING.
 
 ## DISCLAIMER
-NO CHINESE PARTICIPANTS - MONETARYCOIN TOKENS ARE NOT BEING OFFERED OR DISTRIBUTED TO CHINESE PERSONS.
+NO US PARTICIPANTS WITHOUT SATISFACTORY PROOF OF ACCREDITED INVESTOR STATUS, NO CHINESE PARTICIPANTS - MONETARYCOIN TOKENS ARE NOT BEING OFFERED OR DISTRIBUTED TO CHINESE PERSONS.
+
 THE FINANCIAL AND LEGAL RISKS RELATED TO ACQUISITION, POSSEESION AND DISPOSITION OF CRYPTOCURRENCY SUCH AS MONETARYCOIN ARE LARGELY UNKNOWN TODAY.
 
 CRYPTOCURRENCIES SUCH AS MONETARYCOIN MAY NOT BE SUITABLE FOR INDIVIDUALS NOT OTHERWISE ABLE TO WITHSTAND SIGNIFICANT VOLATILITY AND RISK OF TOTAL, IMMEDIATE AND UNRECOVERABLE LOSS.
