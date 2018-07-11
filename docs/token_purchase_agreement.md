@@ -6,9 +6,10 @@ This Agreement may be executed digitally or in counterparts (which may be exchan
 
 ## PURCHASE TERMS
 
+
 Signing Date: 	
 
-Effective Date:	Date ETH is received by Seller
+Effective Date (Date ETH is received by Seller): 
 
 Token Being Purchased:
 
@@ -16,7 +17,9 @@ ____ MonetaryCoinERO (MERO) Purchase Amount:	[____________] ETH
 
 ____ MonetaryCoinCHI (MCHI) Purchase Amount:	[____________] ETH
 
-Purchaser Digital Wallet Address:	[0x______________________________________]
+Purchaser Digital Wallet Address for MERO:	[0x______________________________________]
+
+Purchaser Digital Wallet Address for MCHI:	[0x______________________________________]
 
 Per Token Price:
 
@@ -27,6 +30,7 @@ MCHI:  _____________________ ETH
 Total Number of MonetaryCoinERO (MERO) Tokens to be Delivered:	[____________]
 
 Total Number of MonearyCoinCHI (MCHI) Tokens to be Delivered:	[____________]
+
 
 IN WITNESS WHEREOF, the parties hereto have executed this Agreement on the Signing Date identified above.
 
