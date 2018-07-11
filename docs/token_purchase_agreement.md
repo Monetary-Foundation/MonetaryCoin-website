@@ -7,25 +7,41 @@ This Agreement may be executed digitally or in counterparts (which may be exchan
 ## PURCHASE TERMS
 
 Signing Date: 	
+
 Effective Date:	Date ETH is received by Seller
+
 Token Being Purchased:
+
 ____ MonetaryCoinERO (MERO) Purchase Amount:	[____________] ETH
+
 ____ MonetaryCoinCHI (MCHI) Purchase Amount:	[____________] ETH
+
 Purchaser Digital Wallet Address:	[____________]
+
 Per Token Price:
+
 MERO:  __________________ ETH
+
 MCHI:  __________________ ETH
+
 Total Number of Tokens to be Delivered:	[____________]
 
 IN WITNESS WHEREOF, the parties hereto have executed this Agreement on the Signing Date identified above.
 
 
-   AYITI LTD					                 [PURCHASER]
-
-
-By: __________________________			By: ______________________
-	[Name]	                              [Name] 
-  [Title]	                              [Title]
+   AYITI LTD
+   
+   
+   By:________________________
+   
+   
+   PURCHASER
+   
+   
+   By:_______________________
+   
+   
+   Name:_____________________
 
  
 ## SCHEDULE A
