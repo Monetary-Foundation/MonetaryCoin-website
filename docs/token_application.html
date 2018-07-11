@@ -2,48 +2,75 @@
 <html lang="en">
 
 <head>
-    <title>MonetaryCoin Token Purchase Application</title>
-    <meta charset="utf-8">
-    <meta name="description" content="MonetaryCoin AML/KYC Application form."
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Main Stylesheet CSS -->
-    
-    <!--Favicon icon-->
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/images/icons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+  <title>MonetaryCoin Token Purchase Application</title>
+  <meta charset="utf-8">
+  <meta name="description" content="MonetaryCoin AML/KYC Application form." />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Main Stylesheet CSS -->
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120949237-1"></script>
+  <!--Favicon icon-->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120949237-1"></script>
 </head>
+<style>
+  iframe {
+    overflow: scroll !important;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  div {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  @media (max-width: 780px) {
+    div {
+      position: absolute;
+    }
+  }
+</style>
 
 <body>
-  
-  <iframe id="form1" src="" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
-    Your browser doesn't support iframes
-  </iframe>
+  <div>
+    <!-- 
+      style="-webkit-overflow-scrolling: touch; overflow-y: scroll;"
+      style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; z-index:999999;"
+    -->
+    <iframe id="form1" src="" allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true'>
+      Your browser doesn't support iframes
+    </iframe>
+  </div>
   <script type="text/javascript">
     let params = new URLSearchParams(location.search.slice(1));
-    // var loc = "http://jsfiddle.net?123xyz";
-    // var params = loc.split('?')[1];
-    document.getElementById("form1").src = 
-      'https://forms.zohopublic.com/admin852/form/JobApplicationForm/formperma/2VaEK9jutRRUzioYL6T8mqPOAM4EV59cXbVQnR9ckcA?' 
-      + 'eth_address=' + params.get("eth_address");
+    const eth_address_param = params.get("eth_address") || '0x'
+    document.getElementById("form1").src =
+      'https://forms.zohopublic.com/admin852/form/JobApplicationForm/formperma/2VaEK9jutRRUzioYL6T8mqPOAM4EV59cXbVQnR9ckcA?'
+      + 'eth_address=' + eth_address_param;
   </script>
 </body>
 
