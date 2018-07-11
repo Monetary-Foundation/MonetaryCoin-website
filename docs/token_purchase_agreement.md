@@ -16,15 +16,17 @@ ____ MonetaryCoinERO (MERO) Purchase Amount:	[____________] ETH
 
 ____ MonetaryCoinCHI (MCHI) Purchase Amount:	[____________] ETH
 
-Purchaser Digital Wallet Address:	[____________]
+Purchaser Digital Wallet Address:	[0x______________________________________]
 
 Per Token Price:
 
-MERO:  __________________ ETH
+MERO:  _____________________ ETH
 
-MCHI:  __________________ ETH
+MCHI:  _____________________ ETH
 
-Total Number of Tokens to be Delivered:	[____________]
+Total Number of MonetaryCoinERO (MERO) Tokens to be Delivered:	[____________]
+
+Total Number of MonearyCoinCHI (MCHI) Tokens to be Delivered:	[____________]
 
 IN WITNESS WHEREOF, the parties hereto have executed this Agreement on the Signing Date identified above.
 
@@ -38,10 +40,11 @@ IN WITNESS WHEREOF, the parties hereto have executed this Agreement on the Signi
    PURCHASER
    
    
-   By:_______________________
+   Name:__________________________
    
    
-   Name:_____________________
+   
+   By:____________________________
 
  
 ## SCHEDULE A
