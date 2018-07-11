@@ -32,23 +32,26 @@ Total Number of MonetaryCoinERO (MERO) Tokens to be Delivered:	[____________]
 Total Number of MonearyCoinCHI (MCHI) Tokens to be Delivered:	[____________]
 
 
+
 IN WITNESS WHEREOF, the parties hereto have executed this Agreement on the Signing Date identified above.
+
 
 
    AYITI LTD
    
    
-   By:________________________
+   By:_____________________________
+   
    
    
    PURCHASER
    
    
-   Name:__________________________
+   Name:___________________________
    
    
    
-   By:____________________________
+   By:_____________________________
 
  
 ## SCHEDULE A
