@@ -1,6 +1,6 @@
 # MONETARYCOIN TOKEN PURCHASE AGREEMENT
 
-This Token Purchase Agreement (this “Agreement”) is entered into as of the Effective Date set forth below between the Seller and the Purchaser as identified below.  This Agreement includes and incorporates the below Purchase Terms, as well as Schedule A “Purchase Agreement Terms and Conditions,” Schedule B “Token Functionality,” and Schedule C “Risk Factors,”  which collectively form a single agreement.
+This Token Purchase Agreement (this “Agreement”) is entered into as of the Effective Date set forth below between the Seller and the Purchaser as identified below.  This Agreement includes and incorporates the below Purchase Terms, as well as Schedule A “Purchase Agreement Terms and Conditions,” Schedule B “Token Functionality,” Schedule C “Risk Factors,” and Schedule D "Token Purchase Summary"  which collectively form a single agreement.
 
 This Agreement may be executed digitally or in counterparts (which may be exchanged by e-mail), each of which shall be deemed an original, but all of which together shall constitute the same Agreement. 
 
@@ -18,9 +18,7 @@ b = Total number of MonetaryCoin Tokens available for distribution in the period
 
 c = Total ETH contributed by all authorized participants during the period.
 
-
-Total ETH Contributed________________
-
+See Schedule D - Token Purchase Summary - for further detail.
 
 IN WITNESS WHEREOF, the parties hereto have executed this Agreement on the Signing Date identified above.
 
@@ -277,3 +275,38 @@ Holding the Tokens is in no way the equivalent of holding a share of stock in th
 (q)	Taxation:  The tax characterization of the Tokens is uncertain.  Purchasers must seek their own tax advice in connection with the acquisition, transfer and use of the Tokens, which may result in adverse tax consequences, including, without limitation, withholding taxes, transfer taxes, value added taxes, income taxes and similar taxes, levies, duties or other charges and tax reporting requirements.
 
 (r)	Unanticipated Risks: Blockchain and cryptography are new and untested technologies. In addition to the risks discussed in this Agreement, there are risks that the Seller cannot anticipate. Further risks may materialize as unanticipated combinations or variations of the discussed risks or new risks may emerge.
+
+## SCHEDULE D
+
+### TOKEN PURCHASE SUMMARY
+
+			                  Purchase	     Purchaser	         Per	
+		                     Amount	   Digital Wallet	     Token	     Tokens
+	      Window	  Date	(ETH)	         Address	        Price	     Purchased
+         
+MERO		  X         X       X              XXX              X            X				
+						
+						
+--------------------------------------------------------------------------------
+Sub-Total  -        -        x              ---             x             x
+
+
+
+
+			                  Purchase	     Purchaser	         Per	
+		                     Amount	   Digital Wallet	     Token	     Tokens
+	      Window	  Date	(ETH)	         Address	        Price	     Purchased
+         
+MCHI		  X         X       X              XXX              X            X	
+
+
+
+--------------------------------------------------------------------------------
+Sub-Total  -        -        x              ---             x             x
+
+
+						
+						
+
+
+
