@@ -6,13 +6,11 @@ This Agreement may be executed digitally or in counterparts (which may be exchan
 
 ## PURCHASE TERMS
 
-Signing Date: 
-
-Effective Date (date ETH is received by Seller): 
+Effective Date: 
 
 Token Being Purchased:
 
-MonetaryCoin Tokens ("MERO" or "MCHI") distributed to the Purchaser at the end of a period = a * (b/c).
+MonetaryCoin Tokens distributed to the Purchaser at the end of a period = a * (b/c).
 
 a = Total ETH contributed by an authorized participant during the period.
 b = Total number of MonetaryCoin Tokens available for distribution in the period.
