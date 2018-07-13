@@ -48,7 +48,7 @@ IN WITNESS WHEREOF, the parties hereto have executed this Agreement on the Signi
 ## SCHEDULE A
 ### PURCHASE AGREEMENT TERMS AND CONDITIONS
 
-THESE PURCHASE AGREEMENT TERMS AND CONDITIONS FORM PART OF THE PURCHASE AGREEMENT, between Ayiti Ltd a Limited Company organized under the laws of the Republic of Seychelles (the “Seller”) and the contributing party (the “Purchaser”).  
+THESE PURCHASE AGREEMENT TERMS AND CONDITIONS FORM PART OF THE PURCHASE AGREEMENT, between Relay Software Ltd a Limited Company organized under the laws of the Republic of Seychelles (the “Seller”) and the contributing party (the “Purchaser”).  
 
 WHEREAS the Seller has created or caused to be created the MonetaryCoinERO and MonetaryCoinCHI digital cryptocurrency tokens (the “MERO Tokens” and “MCHI Tokens,” and collectively, the “Tokens”);
 
