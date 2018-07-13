@@ -280,29 +280,26 @@ Holding the Tokens is in no way the equivalent of holding a share of stock in th
 
 ### TOKEN PURCHASE SUMMARY
 
-			                  Purchase	     Purchaser	         Per	
-		                     Amount	   Digital Wallet	     Token	     Tokens
-	      Window	  Date	(ETH)	         Address	        Price	     Purchased
+			Purchase	Purchaser		Per	
+			Amount		Wallet			Token		Token
+	Window	Date	(ETH)		Address			Price		Purchased
          
-MERO		  X         X       X              XXX              X            X				
+MERO						
 						
 						
---------------------------------------------------------------------------------
-Sub-Total  -        -        x              ---             x             x
+---------------------------------------------------------------------------------------------------------
+Sub-Total 
 
 
-
-
-			                  Purchase	     Purchaser	         Per	
-		                     Amount	   Digital Wallet	     Token	     Tokens
-	      Window	  Date	(ETH)	         Address	        Price	     Purchased
+			Purchase	Purchaser		Per	
+			Amount		Wallet			Token		Token
+	Window	Date	(ETH)		Address			Price		Purchased
          
-MCHI		  X         X       X              XXX              X            X	
-
-
-
---------------------------------------------------------------------------------
-Sub-Total  -        -        x              ---             x             x
+MERO						
+						
+						
+---------------------------------------------------------------------------------------------------------
+Sub-Total 
 
 
 						
