@@ -13,25 +13,34 @@ Token Being Purchased:
 MonetaryCoin Tokens distributed to the Purchaser at the end of a period = a * (b/c).
 
 a = Total ETH contributed by an authorized participant during the period.
+
 b = Total number of MonetaryCoin Tokens available for distribution in the period.
+
 c = Total ETH contributed by all authorized participants during the period.
 
+
 Total ETH Contributed________________
+
 
 IN WITNESS WHEREOF, the parties hereto have executed this Agreement on the Signing Date identified above.
 
 
+
    RELAY SOFTWARE LTD
+   
    
    
    By:_____________________________
    
    
    
+   
    PURCHASER
    
    
+   
    Name:___________________________
+   
    
    
    
