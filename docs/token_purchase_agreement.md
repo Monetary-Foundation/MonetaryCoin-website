@@ -285,21 +285,23 @@ Holding the Tokens is in no way the equivalent of holding a share of stock in th
 	Window	Date	(ETH)		Address			Price		Purchased
          
 MERO						
-						
+	
+	
 						
 ---------------------------------------------------------------------------------------------------------
-Sub-Total 
+MERO Sub-Total 
 
 
 			Purchase	Purchaser		Per	
 			Amount		Wallet			Token		Token
 	Window	Date	(ETH)		Address			Price		Purchased
          
-MERO						
-						
+MCHI						
+		
+		
 						
 ---------------------------------------------------------------------------------------------------------
-Sub-Total 
+MCHI Sub-Total 
 
 
 						
