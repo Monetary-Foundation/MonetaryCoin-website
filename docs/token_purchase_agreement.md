@@ -6,38 +6,24 @@ This Agreement may be executed digitally or in counterparts (which may be exchan
 
 ## PURCHASE TERMS
 
+Signing Date: 
 
-Signing Date: 	
-
-Effective Date (Date ETH is received by Seller): 
+Effective Date (date ETH is received by Seller): 
 
 Token Being Purchased:
 
-____ MonetaryCoinERO (MERO) Purchase Amount:	[____________] ETH
+MonetaryCoin Tokens ("MERO" or "MCHI") distributed to the Purchaser at the end of a period = a * (b/c).
 
-____ MonetaryCoinCHI (MCHI) Purchase Amount:	[____________] ETH
+a = Total ETH contributed by an authorized participant during the period.
+b = Total number of MonetaryCoin Tokens available for distribution in the period.
+c = Total ETH contributed by all authorized participants during the period.
 
-Purchaser Digital Wallet Address for MERO:	[0x______________________________________]
-
-Purchaser Digital Wallet Address for MCHI:	[0x______________________________________]
-
-Per Token Price:
-
-MERO:  _____________________ ETH
-
-MCHI:  _____________________ ETH
-
-Total Number of MonetaryCoinERO (MERO) Tokens to be Delivered:	[____________]
-
-Total Number of MonearyCoinCHI (MCHI) Tokens to be Delivered:	[____________]
-
-
+Total ETH Contributed________________
 
 IN WITNESS WHEREOF, the parties hereto have executed this Agreement on the Signing Date identified above.
 
 
-
-   AYITI LTD
+   RELAY SOFTWARE LTD
    
    
    By:_____________________________
