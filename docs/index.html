@@ -30,8 +30,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120949237-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120949237-1"></script> -->
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="82" class="eupopup eupopup-bottom">
@@ -983,11 +982,11 @@
     </script>
     <script src="js/jquery3.2.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/jquery-eu-cookie-law-popup.css"/>
-    <script>
+    <!-- <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'UA-120949237-1');
+            gtag('config', 'UA-120949237-1'); 
             // function initialiseGoogleAnalytics() {
             //     gtag('js', new Date());
             //     gtag('config', 'UA-120949237-1');
@@ -1002,7 +1001,17 @@
             //         initialiseGoogleAnalytics();
             //     }
             // });
-        </script>
+    </script>-->
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-120949237-1', 'auto');
+        ga('require', 'eventTracker');
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'maxScrollTracker');
+        ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <script async src="js/autotrack.js"></script>
     <script src="js/jquery-eu-cookie-law-popup.js"></script>
     <!-- JQUERY LIBRARY -->
     <script src="js/bootstrap.min.js"></script>
