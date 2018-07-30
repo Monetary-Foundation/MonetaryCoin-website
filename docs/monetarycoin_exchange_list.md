@@ -1,4 +1,4 @@
-# MONETARYCOIN Exchange List
+# MonetaryCoin Exchange List
 
 MonetaryCoin is traded on those exchanges:
 
