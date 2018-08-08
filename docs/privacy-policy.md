@@ -1,7 +1,7 @@
 ## MonetaryCoin Privacy Policy
 Effective date: April 01, 2018
 
-monetarycoin ("us", "we", or "our") operates the https://monetarycoin.org website and the monetarycoin mobile application (the "Service").
+RELAY SOFTWARE LTD ("us", "we", or "our") operates the https://monetarycoin.org website and the monetarycoin.io application (the "Service").
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. 
 
